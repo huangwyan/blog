@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.administrator.expert_day01_chabaike.Activity.DetailsActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/details_tb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        ></android.support.v7.widget.Toolbar>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="#78d676"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/details_title"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:textSize="20sp"
+                android:maxLines="1"/>
+            <TextView
+                android:id="@+id/details_keywords"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_below="@id/details_title"
+                android:layout_marginLeft="5dp" />
+            <TextView
+                android:id="@+id/details_time"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:maxLines="1"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/details_title"
+                android:layout_marginRight="10dp" />
+        </RelativeLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingTop="5dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp">
+            <TextView
+                android:id="@+id/details_up"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <!--<ImageView
+                android:id="@+id/datails_img"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_launcher"/>
+            <TextView
+                android:id="@+id/details_down"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />-->
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

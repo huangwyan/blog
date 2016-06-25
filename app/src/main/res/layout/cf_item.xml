@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="10dp"
+    >
+
+    <ImageView
+        android:id="@+id/item_iv"
+        android:layout_width="100dp"
+        android:layout_height="100dp"/>
+
+    <TextView
+        android:id="@+id/item_tv_desc"
+        android:layout_toRightOf="@id/item_iv"
+        android:layout_width="match_parent"
+        android:ellipsize="end"
+        android:background="@null"
+        android:lines="4"
+        android:text="多地出台整合城乡居民医保方案 个人缴费提高 《每日经济新闻》记者注意到，年初国务院发布的《关于整合城乡居民基本医疗保险制度的意见》中明确，         合理划分政府与个人的筹资责任，在提高政府补助标准的同时，适当提高个人缴费比重"
+        android:layout_height="70dp"/>
+
+    <TextView
+        android:id="@+id/item_tv_rc"
+        android:layout_below="@id/item_tv_desc"
+        android:layout_toRightOf="@id/item_iv"
+        android:layout_width="wrap_content"
+        android:text="阅读数:22"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="7dp"
+        android:layout_height="20dp"/>
+
+    <TextView
+        android:id="@+id/item_tv_time"
+        android:layout_below="@id/item_tv_desc"
+        android:layout_toRightOf="@id/item_tv_rc"
+        android:layout_width="wrap_content"
+        android:text="20160621666666"
+        android:layout_marginTop="7dp"
+        android:gravity="right|center_vertical"
+        android:layout_alignParentRight="true"
+        android:paddingRight="5dp"
+        android:layout_height="20dp"/>
+
+
+</RelativeLayout>
+
+

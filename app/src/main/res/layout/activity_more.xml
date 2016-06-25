@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.administrator.expert_day01_chabaike.Activity.MoreActivity">
+
+    <ImageView
+        android:id="@+id/img_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/logo" />
+    <LinearLayout
+        android:id="@+id/img_text_ll"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/img_logo"
+        android:background="#869c93"
+        android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:text="收藏夹"/>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/text_collect"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img_text_ll"
+        android:textSize="20sp"
+        android:text="收藏夹"/>
+    <TextView
+        android:id="@+id/text_record"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_collect"
+        android:textSize="20sp"
+        android:text="浏览记录"/>
+
+    <LinearLayout
+        android:id="@+id/img_text_ll2"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/text_record"
+        android:background="#869c93"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="关于客户端"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/text_versions"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img_text_ll2"
+        android:textSize="20sp"
+        android:text="版本信息"/>
+    <TextView
+        android:id="@+id/text_feedback"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_versions"
+        android:textSize="20sp"
+        android:text="意见反馈"/>
+
+
+</RelativeLayout>
